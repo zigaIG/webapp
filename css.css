@@ -83,6 +83,7 @@ h1{
     padding-bottom: 10px;}
 .news h2{ 
     text-align: right;
+    text-decoration-color: none;
     font-family: 'Black And White Picture', sans-serif;}
 
 .news hr{
@@ -93,6 +94,7 @@ h1{
     font-style: italic;
     color: white;}
 .news a{
+    
     font-family: 'Black And White Picture', sans-serif;
     font-size: 120%;}
 .news .malitext{
@@ -101,7 +103,9 @@ h1{
 
 
  /* contact i map */
-maps{
+
+
+maps{ 
     /*kako pomaknuti desno, neide padding i margin u html5 neide ni align*/
 }
 
@@ -139,7 +143,8 @@ label{font-family: Arial, Helvetica, sans-serif;}
     float:left;
     overflow: hidden;
     background-color:  black;
-    color:white;}
+    color:white;
+    margin-bottom: 55px;}
 .gallery img:hover{opacity: 0.65;}
 .gallery figcaption {font-family: Arial;}
 .gallery a{color:white;}

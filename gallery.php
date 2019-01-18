@@ -1,33 +1,6 @@
-<!DOCTYPE html>
-<html lang="hr">
-<head>
-<link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css.css">
-<link rel="icon"  href="jaki5.jpg">
-<title>Projektni</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="wabapp, vvg">
-<meta name="description" content="Projektni zadatak iz predmeta Web aplikacije">
-<meta name="author" content="Izidor Briški">
+<?php
+print '
 
-</head>
-<body>
-<header >
-<image id="jaki" src="jaki5.jpg" alt="Skull-axes" height="200">
-</header>
-<nav>
-    <ul >
-        <li><a href="home.html">Home</a></li>
-        <li><a href="news.html">News</a></li>       
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a class="selected" href="gallery.html">Gallery</a></li>
-
-    </ul>
-</nav>
-
-<main>
 <h1>Gallery</h1>
 <div class="gallery">
         <figure >
@@ -86,13 +59,5 @@
 
 </div>
 
-
-
-
-</main>
-<footer>
-    <p> 2018 Izidor Briški <a href="https://github.com/zigaIG/webapp"><img src="gitlogo.png" title="Github" alt="Github"></a></p>
-</footer>
-
-</body>
-</html>
+'
+?>

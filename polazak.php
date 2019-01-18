@@ -1,33 +1,5 @@
-<!DOCTYPE html>
-<html lang="hr">
-<head>
-<link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css.css">
-<link rel="icon"  href="jaki5.jpg">
-<title>Projektni</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="wabapp, vvg">
-<meta name="description" content="Projektni zadatak iz predmeta Web aplikacije">
-<meta name="author" content="Izidor Briški">
-
-</head>
-<body>
-<header >
-<image id="jaki" src="jaki5.jpg" alt="Skull-axes" height="200">
-</header>
-<nav>
-    <ul >
-        <li><a href="home.html">Home</a></li>
-        <li><a class="selected" href="news.html">News</a></li>       
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-
-    </ul>
-</nav>
-
-<main>
+<?php
+print '
     <h1>Polazak</h1>
     <div class="news">
         
@@ -42,15 +14,9 @@
         <p>Put ekspedicionizma u sklopu kojeg je i ovaj uspon, a koji je pokrenut 2017. povodom obilježavanja sedamdesete godišnjice Društva 2020. godine. Tijekom priprema za ovaj trenutačno najveći projekt hrvatskog planinarstva/alpinizma, zbog izvanrednih okolnosti dolazilo je do promjena u “početnoj postavi” pa sada Dadinu ekipu čine: Tomislav Lopandić, Iva Džeba, Mirela Rakocija, Anja Piljek, Rene Lisac, Bernard Bregar, Ivan Palfi, Tin Cvitković, Goran Kelečić, Vesna Žarak, Milivoj Uroić, Nada Bilobrk, Dušan Buinac, Gordan Bedenic, Marko Škrbina i Nataša Petrin. Sretno!</p>
         <p><time datetime="2018-08-13">13 Kolovoza 2018</time></p>
         <p><a href="http://www.hpdzeljeznicar.hr/put-ekspedicionizma/polazak-ekspedicije">Link na originalni članak</a></p>
-        <p><a href="news.html">Back to news</a></p>
-
+        <p><a href="index.php?menu=1">Back to news</a></p>
+        
 
     </div>
-
-</main>
-<footer>
-    <p> 2018 Izidor Briški <a href="https://github.com/zigaIG/webapp"><img src="gitlogo.png" title="Github" alt="Github"></a></p>
-</footer>
-
-</body>
-</html>
+'
+?>
